@@ -1,0 +1,387 @@
+/*---------------------------------------every-----------------------------------*/
+
+.c h2{
+    font-family:timesnewroman;
+    text-shadow:3px 2px rgb(199, 45, 45);      /*heading*/
+    font-size: 40px;
+    text-decoration: none;
+    }
+    
+.c{             /*heading*/
+    background: linear-gradient(to right, #00c6ff, #0072ff, #7f00ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.c a{           /*heading*/
+    font-size :20px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    text-decoration:none;
+    color:white;
+    padding:20;
+    }
+      
+.c a:hover{            /*heading*/
+    font-size:25px;
+    text-decoration:underline overline;
+    color:white;
+    }
+
+.last {           /*footer*/
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align:center;
+}
+
+h2{     /*h2*/
+    font-size:30px;
+    text-decoration:underline;
+    text-shadow:2px 1px red;
+    text-align:center
+    }
+
+.last h3{               /*footer*/
+text-decoration:underline;}
+
+h2.r{   /*h2 in heading*/
+    font-size:45px;
+    text-shadow:3px 2px rgb(199, 45, 45);
+    text-align:center;
+    text-decoration:none;
+    }
+
+p{                /*all paras in site*/           
+font-variant:small-caps;
+font-size:20px;
+text-indent: 3%;
+}
+
+blockquote {             /*quote*/               
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.a{                        /*all links*/
+    font-size:20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /*box-shadow: inset 0 0 20px rgba(128, 0, 128, 0.3);
+    text-align: center;
+    padding: 40px 60px;*/
+    animation: fadeIn 1s ease-out;    
+    }
+      
+.a:hover{              /*all links*/
+    background: linear-gradient(to bottom right, #ff416c, #ff4b2b, #ff6a00, #c471ed, #f64f59);
+    color: #ffffff;
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:underline overline;
+    }
+
+h1.pq{             /*h1*/            
+font-size:35px;
+text-decoration:underline overline;
+text-shadow:3px 3px red
+}
+
+.glow-box {    /*main h1*/                 
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.3),
+    0 16px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  width: 90%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+
+.glow-box h1 {   
+  color:yellow;    /*main h1*/   
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  /* Enables text clipping with background */
+
+}
+
+.glow-box:hover {    /*main h1*/                   
+  transform: scale(1.05); /* Makes the box larger */
+  background: linear-gradient(90deg, #00c9ff, #92fe9d);
+	transition: all 0.4s ease-in-out;
+}
+
+.aa ,.bb,.cc{    /*footer*/
+flex: 1 1 30%;
+margin: 10px;
+min-width: 250px;
+padding:20;
+box-sizing: border-box;
+border: 2px solid yellow;
+border-radius: 100px;
+}
+
+.last {           /*footer*/                          
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align:center;
+  }
+
+.last h3{               /*footer*/                       
+text-decoration:underline;}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+  }
+}
+
+table{
+  border-collapse: collapse;
+  border: 5px solid black;
+  font-size: 20px;
+}
+
+th,td{
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #ffbb00e0;
+}
+
+th{
+  font-size: 20px;
+}
+
+/*--------------------------------------Home-----------------------------------*/
+
+.quote1{          /*quote*/
+font-style: italic;
+background: #ecf0f1;
+padding: 15px;
+border-left: 4px solid #3498db;
+margin-bottom: 30px;
+font-size: 15px;
+}
+
+h1.pq{             /*h1*/
+font-size:35px;
+text-decoration:underline overline;
+text-shadow:5px 4px red
+}
+
+
+.pos img{    /*inside image*/                       
+float:left;
+shape-outside: circle(50%);
+}
+
+
+.container{          /* final forum and other in contain*/  
+display:flex;
+margin:20px;
+}
+
+.first{       /*form*/              
+padding:20;
+flex: 1 1 50%;
+box-sizing: border-box;
+border: 2px solid #4CAF50;
+border-radius: 100px;
+}
+
+.second{     /*right side of form*/             
+flex: 1 1 50%;
+padding:20;
+box-sizing: border-box;
+border: 2px solid #4CAF50;
+border-radius: 100px;
+}
+
+.second p{            /*right side of form*/                 
+text-align:justify;
+}
+
+.second img{         /*right side of form*/                   
+float:left;
+shape-outside: circle(50%);
+}
+
+.cont{                                          
+display:flex;
+gap:50px;
+}
+
+.cp1, cp2{
+padding:20;
+flex: 1 1 50%;
+}
+
+.abc{            /*all back main h1*/                    /*----------------------------------*/
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    height:350;
+    text-align:center;
+    padding:30;
+    border-radius: 30%;
+}
+
+h3{
+  font-size: 25px;
+}
+
+
+
+/*----------------------------------About-----------------------------------------*/
+
+.quote {          /*quote*/
+font-style: italic;
+background: #ecf0f1;
+padding: 15px;
+border-left: 4px solid #3498db;
+margin-bottom: 30px;
+}
+
+.abc1{            /*main h1*/
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    height:250;
+    text-align:center;
+    padding:30;
+    border-radius: 30%;
+    }
+
+.d{                  /*picture align right*/      
+display:flex;
+gap:30px;
+}
+
+
+
+
+
+
+/*--------------------------contact----------------------------*/
+
+.cx{
+display:flex;
+margin:20px;
+gap: 200px; /* space between contact table and image */
+}
+
+.c2 c1{
+padding:20;
+flex: 1 1 50%;
+}
+
+.abc2{            /*main h1*/
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    height:250;
+    text-align:center;
+    padding:30;
+    border-radius: 30%;
+    }
+
+.bc {
+    display:flex;
+    gap: 150px;
+}
+
+.cz{
+    width: 500;
+    height: 200;
+    border: 3px solid green;
+}
+
+.ps {
+    text-align:center; 
+    background: linear-gradient(135deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF);
+    font-weight: bold; 
+    border-radius:30%;
+}
+
+.pl {
+    alt: ReadMore Library Banner;
+    width:50%;
+    border-radius:30%;
+}
+
+.ny{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*-----------------------------------------Book Add-----------------------------------------*/
+
+.bv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.marquee {
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 10s linear infinite;
+}
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.cp{
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  padding: 10px;
+  flex: 1 1 50%;
+}
+
+.cop{
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  padding: 10px;
+  flex: 1 1 50%;
+}
+
+.qon{
+  text-align: center;
+  font-size:30px; 
+}
+
+.qon2{
+  text-align:center;
+}
+
+.oil{
+  padding: 10px;
+  background-image: url('images/back.avif'); /* path to image */
+  background-size: cover;       /* scales the image to cover the div */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center;  /* centers the image */
+}
+
+.fixed-area {
+  width: 600px;          /* Set fixed width */
+  height: 150px;         /* Set fixed height */
+  resize: none;          /* Prevent user from resizing */
+  font-size: 20px;
+}

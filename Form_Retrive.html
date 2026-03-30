@@ -1,0 +1,29 @@
+<html>
+<head>
+   <title>Search</title>
+   <style>body{
+      background-color: bisque;
+   }
+   </style>
+   <link rel="stylesheet" href="main_style.css">
+</html>
+<body>
+   <div class='c'>
+        <div>
+        <h2 class='r'> Sashik's Digital Library</h2></div>
+        <div><a href='Home.html' class="a">Home</a>
+        <a href='About.html' class="a">About</a>
+        <a href='Contact.html' class="a">Contact</a>
+        <a href='Form_Retrive.html' class="a">Customer</a>
+        <a href="Home.html#form" class="a">Form</a>
+        <a href="Book_Add.html" class="a">Book</a>
+        </div></div>
+        <hr>
+   <form action='data.php' method='post'>
+      <h1 style="text-decoration:underline overline; color: green;text-align: center; font-size: 100px;">Search Customer Details</h1>
+      <h2>Search with Customer ID :- </h2>
+      <input type="text" name='ID' placeholder="NIC Number" size="40" style="width:300px; height:40px;font-size:30px;">
+      <input type="submit" name="submit" value="Retrive" style="width:150px; height:40px; font-size:30px;background-color:lightseagreen;color:whitesmoke;">
+   </form>
+</body>
+</html>

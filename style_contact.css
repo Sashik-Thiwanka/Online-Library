@@ -1,0 +1,175 @@
+.cx{
+display:flex;
+margin:20px;
+gap: 200px; /* space between contact table and image */
+}
+
+.c2 c1{
+padding:20;
+flex: 1 1 50%;
+}
+
+.c h2{
+    font-family:timesnewroman;
+    text-shadow:3px 2px rgb(199, 45, 45);      /*heading*/
+    font-size: 40px;
+    text-decoration: none;
+    }
+    
+.c{             /*heading*/
+    background: linear-gradient(to right, #00c6ff, #0072ff, #7f00ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.c a{           /*heading*/
+    font-size :20px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    text-decoration:none;
+    color:white;
+    padding:20;
+    }
+      
+.c a:hover{            /*heading*/
+    font-size:25px;
+    text-decoration:underline overline;
+    color:white;
+    }
+
+.glow-box {    /*main h1*/                 
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.3),
+    0 16px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  width: 90%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.abc2{            /*main h1*/
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    height:250;
+    text-align:center;
+    padding:30;
+    border-radius: 30%;
+    }
+
+.glow-box h1 {       /*main h1*/   
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  background-clip: text;               /* Standard property */
+  -webkit-background-clip: text;       /* WebKit-specific property */
+  -webkit-text-fill-color: transparent; /* Enables text clipping with background */
+
+}
+
+.glow-box:hover {    /*main h1*/                   
+  transform: scale(1.05); /* Makes the box larger */
+  background: linear-gradient(90deg, #00c9ff, #92fe9d);
+	transition: all 0.4s ease-in-out;
+}
+
+    /*    background: linear-gradient(135deg, #1c2e75, #b21f1f, #fdbb2d);
+    text-align:center;
+    padding:30;
+    border-radius: 30px;*/
+
+p {
+text-indent: 3%;
+}
+
+.aa ,.bb,.cc{    /*footer*/
+flex: 1 1 30%;
+margin: 10px;
+min-width: 250px;
+padding:20;
+box-sizing: border-box;
+border: 2px solid rgb(0, 47, 255);
+border-radius: 100px;
+}
+
+.last {             /*footer*/
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align:center;
+    }
+
+.last h3{       /*footer*/
+    text-decoration:underline;}
+
+.bc {
+    display:flex;
+    gap: 150px;
+}
+
+.cz{
+    width: 500;
+    height: 200;
+    border: 3px solid green;
+}
+
+h2{     /*h2*/
+    font-size:30px;
+    text-decoration:underline;
+    text-shadow:2px 1px red;
+    text-align:center
+    } 
+
+.a{                        /*all links*/
+    font-size:20px;
+    background-color: rgba(94, 255, 156, 0.9);
+    /*box-shadow: inset 0 0 20px rgba(128, 0, 128, 0.3);
+    text-align: center;
+    padding: 40px 60px;*/
+    animation: fadeIn 1s ease-out;    
+    }
+      
+.a:hover{              /*all links*/
+    background: linear-gradient(to bottom right, #ff416c, #ff4b2b, #ff6a00, #c471ed, #f64f59);
+    color: #ffffff;
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:underline overline;
+    }
+
+.ps {
+    text-align:center; 
+    background: linear-gradient(135deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF);
+    font-weight: bold; 
+    border-radius:30%;
+}
+
+/*alt="ReadMore Library Banner"*/
+
+.pl {
+    alt: ReadMore Library Banner;
+    width:50%;
+    border-radius:30%;
+}
+
+.ny{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+  }
+}
